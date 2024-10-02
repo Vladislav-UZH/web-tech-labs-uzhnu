@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autobiography</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Autobiography</h1>
+    </header>
+
+    <nav>
+      <a href="#childhood">Childhood</a>
+      <a href="#school">School</a>
+      <a href="#university">University</a>
+    </nav>
+
+    <main>
+      <section id="childhood">
+        <h2>Childhood</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam est
+          quos sequi! Minus cupiditate, quibusdam rem culpa quam vel beatae!
+          Consectetur debitis tenetur eligendi fugiat reiciendis illum ullam
+          perferendis, excepturi nemo provident, sequi magni autem reprehenderit
+          odio dolore cumque neque ea impedit hic. Nam ex, a nobis saepe velit
+          totam inventore, omnis beatae, illum perferendis commodi consequuntur
+          aut. Voluptatem ab error, facere sapiente quibusdam illo. Eveniet
+          accusamus veritatis consequuntur illo quae, qui, repellat quis, nisi
+          id doloribus eos sunt sapiente ad ipsum! Impedit, est, velit quisquam
+          sapiente modi magni dicta amet molestias neque, tempora nobis iste
+          exercitationem earum voluptas! Explicabo?
+        </p>
+      </section>
+
+      <section id="school">
+        <h2>School</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+          explicabo, consequuntur quos animi iusto aperiam quibusdam similique
+          officiis eius adipisci sint sit quis commodi totam sunt sequi
+          asperiores nisi eos dolore unde magnam rerum distinctio. Sequi quas
+          dolorem aspernatur libero, consequuntur quae aperiam enim asperiores
+          facilis quidem, exercitationem natus, perspiciatis consectetur fuga
+          minus reprehenderit repudiandae non nostrum ipsa labore id unde
+          veritatis mollitia. Corporis fuga beatae, consectetur placeat
+          cupiditate nobis iste iusto voluptatibus ab, labore dolorum illum
+          nihil? Facilis, asperiores nostrum? Mollitia ipsam asperiores natus
+          aspernatur, in aut officia eum facilis! Doloribus perspiciatis quam
+          cum, harum facere laboriosam, hic quod cumque minus blanditiis earum
+          sint. Rem adipisci minima itaque officiis eveniet illo maiores nemo
+          cupiditate ullam laboriosam. Debitis repellendus impedit temporibus
+          dignissimos placeat eos aspernatur provident perferendis, tempora
+          possimus, eveniet voluptatibus, reiciendis enim est minus commodi
+          consequatur asperiores et voluptate qui autem? Et iusto illum
+          molestias ratione, minus, nemo doloremque, officiis in nobis
+          voluptatibus modi ipsa quisquam aliquam magni deleniti. Odit unde
+          eveniet, porro dolorum placeat consequuntur ipsa odio enim accusamus
+          nisi dicta repudiandae vero cum dolorem minima molestias nobis, nihil
+          tempora! Ullam repellendus quam adipisci fugit perspiciatis fuga
+          facilis quasi iusto excepturi vel, aliquam beatae esse voluptatum,
+          tenetur aut.
+        </p>
+      </section>
+
+      <section id="university">
+        <h2>University</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+          fugiat doloribus dignissimos dolores facilis sapiente quidem, officia
+          reprehenderit iusto, iure perspiciatis enim cupiditate velit non
+          architecto! Dolorem facere maiores eius officia. Ratione autem
+          doloremque itaque! Quisquam corporis corrupti quae consequuntur,
+          aliquid amet consectetur id cum, nemo minima laboriosam dolores earum.
+        </p>
+      </section>
+
+      <section id="parents">
+        <h2>Parents</h2>
+        <p>
+          Father: <a href="page_about_father.html">Information about father</a>
+        </p>
+        <p>
+          Mother: <a href="page_about_mother.html">Information about mother</a>
+        </p>
+      </section>
+
+      <section id="photo">
+        <h2>Photo</h2>
+        <img src="./assets/photo.jfif" alt="My photo" width="300" />
+      </section>
+
+      <section id="grades">
+        <h2>Grades for Last Semester</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Subject</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Math</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>Computer Science</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Physics</td>
+              <td>85</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h1>Add a Musical Composition</h1>
+
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="title">Composition Title:</label>
+            <input type="text" id="title" name="title" required />
+          </div>
+
+          <div class="form-group">
+            <label for="artist">Artist Name:</label>
+            <input type="text" id="artist" name="artist" required />
+          </div>
+
+          <div class="form-group">
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre" required>
+              <option value="rock">Rock</option>
+              <option value="pop">Pop</option>
+              <option value="jazz">Jazz</option>
+              <option value="classical">Classical</option>
+              <option value="electronic">Electronic</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="album">Album (Optional):</label>
+            <input type="text" id="album" name="album" />
+          </div>
+
+          <div class="form-group">
+            <label>Music Format:</label>
+            <input
+              type="radio"
+              id="digital"
+              name="format"
+              value="digital"
+              checked
+            />
+            <label for="digital">Digital</label>
+            <input type="radio" id="vinyl" name="format" value="vinyl" />
+            <label for="vinyl">Vinyl</label>
+            <input type="radio" id="cd" name="format" value="cd" />
+            <label for="cd">CD</label>
+          </div>
+
+          <div class="form-group">
+            <label>Available for Purchase:</label>
+            <input
+              type="checkbox"
+              id="digitalPurchase"
+              name="purchase[]"
+              value="digital"
+            />
+            <label for="digitalPurchase">Digital</label>
+            <input
+              type="checkbox"
+              id="vinylPurchase"
+              name="purchase[]"
+              value="vinyl"
+            />
+            <label for="vinylPurchase">Vinyl</label>
+            <input
+              type="checkbox"
+              id="cdPurchase"
+              name="purchase[]"
+              value="cd"
+            />
+            <label for="cdPurchase">CD</label>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              placeholder="Enter a brief description..."
+            ></textarea>
+          </div>
+
+          <div class="form-group buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
